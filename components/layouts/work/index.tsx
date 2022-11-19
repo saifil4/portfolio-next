@@ -53,7 +53,7 @@ const Work: FunctionComponent = () => {
         whileInView={"visible"}
         viewport={{ once: true, amount: 0.3 }}
         transition={{ staggerChildren: 0.2 }}
-        className="grid grid-cols-1 w-3/4 md:grid-cols-2 self-center"
+        className="grid grid-cols-1 md:w-3/4 md:grid-cols-2 self-center w-full"
       >
         {projects.map((project: ProjectType) => (
           <motion.div variants={squareVariants}>

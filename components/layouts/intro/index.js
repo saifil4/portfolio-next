@@ -18,7 +18,7 @@ const Intro = () => {
             damping: 25,
             stiffness: 300,
           }}
-          className="text-4xl w-100 text-center font-semibold font-header leading-tight md:text-5xl"
+          className="text-4xl w-100 self-center font-semibold font-header leading-tight md:text-5xl"
         >
           Hello, I am Saifil
         </motion.h1>
@@ -33,7 +33,7 @@ const Intro = () => {
             damping: 25,
             stiffness: 300,
           }}
-          className="text-4xl w-100 text-center font-semibold font-header leading-tight md:text-5xl"
+          className="text-4xl self-center w-100 text-center font-semibold font-header leading-tight md:text-5xl"
         >
           A Software Engineer
         </motion.h1>

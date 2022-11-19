@@ -45,7 +45,7 @@ const Testimonials = () => {
         What people I have worked with have to say about me?
       </p>
 
-      <div className="h-[calc(100vh-3.5rem)] max-w-5xl flex w-full flex-col justify-center items-baseline space-y-4 md:h-auto">
+      <div className="max-w-5xl flex w-full flex-col justify-center items-baseline space-y-4 h-auto">
         <Swiper
           pagination={pagination}
           modules={[Pagination]}
